@@ -405,7 +405,7 @@ footer .copyright a {
 	padding-top: 6px;
 }
 }
-@media (max-width:400px) {
+@media (max-width:767px) {
 #home h1 {
 	font-size: 32px;
 }
