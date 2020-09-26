@@ -542,7 +542,7 @@ footer .copyright a {
 }
 
 #particles {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	z-index: 1;
 	height: 40vh;
