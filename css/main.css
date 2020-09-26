@@ -93,7 +93,7 @@ h6 {
 
 /* home section */
 #home {
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/bg/3.jpg') repeat-y fixed;
+    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url('../images/bg/3.jpg') repeat-y fixed;
     background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
@@ -242,18 +242,36 @@ h6 {
     color: white;
 }
 
-#services .bg-black {
-    background-color: #303030;
+#services .bg-prog {
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/code.png);
+     background-position:center;
+     background-size: 80%;
     color: #ffffff;
     border: 2px solid white;
 }
 
-#services .bg-crimson {
-    background-color: crimson;
+#services .bg-web {
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/djan.png);
+     background-position:center;
+     background-size: 80%;
+    color: #ffffff;
+    border: 2px solid white;
+}
+#services .bg-media {
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/insta.png);
+     background-position:center;
+     background-size: 80%;
     color: #ffffff;
     border: 2px solid white;
 }
 
+#services .bg-logo {
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/logo/256.png);
+     background-position:center;
+     background-size: 80%;
+    color: #ffffff;
+    border: 2px solid white;
+}
 #services h3 {
     padding-bottom: 60px;
 }
@@ -563,4 +581,35 @@ footer .copyright a {
         background-position: 50% 100%;
     }
 
+    #services .bg-prog {
+     background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/code.png);
+     background-position:center;
+     background-size: 80%;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+#services .bg-logo {
+         background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/logo/256.png);
+          background-position:center;
+     background-size: 125%;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+   #services .bg-web {
+     background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/djan.png);
+     background-position:center;
+     background-size: 80%;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+#services .bg-media {
+         background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/insta.png);
+          background-position:center;
+     background-size: 125%;
+    color: #ffffff;
+    border: 2px solid white;
+}
 }
