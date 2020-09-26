@@ -203,7 +203,7 @@ h6 {
 #intro {
     padding-top: 180px;
     padding-bottom: 140px;
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/7.png') repeat-y fixed;
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;
     /*background: crimson;*/
     background-position: center top;
     background-blend-mode: multiply;
@@ -251,7 +251,7 @@ h6 {
 }
 
 #services .bg-web {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/djan.png);
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/web.png);
      background-position:center;
      background-size: 80%;
     color: #ffffff;
@@ -576,7 +576,7 @@ footer .copyright a {
     }
 
     #intro {
-        background: linear-gradient(rgba(25, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/7.png') repeat-y fixed;
+        background: linear-gradient(rgba(25, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;
         background-size: 200%;
         background-position: 50% 100%;
     }
@@ -598,7 +598,7 @@ footer .copyright a {
 }
 
    #services .bg-web {
-     background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/djan.png);
+     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/web.png);
      background-position:center;
      background-size: 80%;
     color: #ffffff;
