@@ -69,9 +69,4 @@ $(function(){
 
 });
 
- document.addEventListener('DOMContentLoaded', function () {
-  daisyjs(document.getElementById('momoland'), {
-    dotColor: '#000',
-    lineColor: '#222'
-  });
-}, false);
+ 
