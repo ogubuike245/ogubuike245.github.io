@@ -6,7 +6,7 @@ var center;
 function initialize() {
     var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(0.34763, 32.5825),
+      center: new google.maps.LatLng(0.3059, 32.5910),
       scrollwheel: true
     };
   

@@ -1,5 +1,5 @@
 body {
-    background: #f8f8f8;
+    background: #430d27;
     color: #606060;
     font-family: 'Proxima', sans-serif;
     font-size: 16px;
@@ -93,7 +93,8 @@ h6 {
 
 /* home section */
 #home {
-    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url('../images/bg/3.jpg') repeat-y fixed;
+    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url(../images/bg/22.png) repeat-y fixed;
+
     background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
@@ -121,8 +122,9 @@ h6 {
     color: #ffffff;
     font-size: 16px;
     padding: 20px 40px;
-    margin-top: 60px;
-    top: 2%;
+    margin-top: 150px;
+    top: 20%;
+    position: absolute;
     z-index: 20;
 }
 
@@ -135,13 +137,11 @@ h6 {
 #particles {
     position: absolute;
     width: 100%;
-
     height: 100vh;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-
 }
 
 /* navigation section */
@@ -203,8 +203,7 @@ h6 {
 #intro {
     padding-top: 180px;
     padding-bottom: 140px;
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;
-    /*background: crimson;*/
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;    /*background: crimson;*/
     background-position: center top;
     background-blend-mode: multiply;
     background-size: 80%;
@@ -234,47 +233,49 @@ h6 {
     width: 100%;
     padding: 0;
     margin: 0;
-
 }
 
- hr {
-    background:black !important;
+hr {
+    background: black !important;
 }
+
 #services .title {
     padding: 100px 60px 60px 60px auto;
     color: black;
 }
 
 #services .bg-prog {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/code.png);
-     background-position:center;
-     background-size: 80%;
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/code.png);
+    background-position: center;
+    background-size: 80%;
     color: #ffffff;
     border: 2px solid crimson;
 }
 
 #services .bg-web {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/web.png);
-     background-position:center;
-     background-size: 80%;
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/web.png);
+    background-position: center;
+    background-size: 80%;
     color: #ffffff;
     border: 2px solid crimson;
 }
+
 #services .bg-media {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/insta.png);
-     background-position:center;
-     background-size: 80%;
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/insta.png);
+    background-position: center;
+    background-size: 80%;
     color: #ffffff;
     border: 2px solid crimson;
 }
 
 #services .bg-logo {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/logo/256.png);
-     background-position:center;
-     background-size: 80%;
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/logo/256.png);
+    background-position: center;
+    background-size: 80%;
     color: #ffffff;
     border: 2px solid crimson;
 }
+
 #services h3 {
     padding-bottom: 60px;
 }
@@ -299,21 +300,17 @@ h6 {
 
 /* team section */
 #team {
-
     background: #364F6B;
-
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
-    
-    
 }
 
-#team .title{
+#team .title {
     filter: drop-shadow(20px 20px 20px black)
 }
 
-.ogu{
+.ogu {
     filter: drop-shadow(20px 20px 20px black);
 }
 
@@ -353,8 +350,7 @@ h6 {
     padding-bottom: 100px;
     background: linear-gradient(rgba(105, 10, 25, 0.8), rgba(205, 10, 45, 0.8)), url('..images/bg//23.png')repeat-y fixed;
     background-position: center;
-    background-size: 400%;;
-   
+    background-size: 400%;
 }
 
 #portfolio h2 {
@@ -416,9 +412,10 @@ h6 {
     padding: 0;
 }
 
-#price p{
+#price p {
     color: white;
 }
+
 #price .plan ul li {
     display: block;
     font-family: "Proxima";
@@ -452,7 +449,6 @@ h6 {
 
 /* contact section */
 #contact {
-    
     background: linear-gradient(rgba(25, 100, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../23.png')repeat-y fixed;
     background-position: center;
     background-size: 400%;
@@ -488,60 +484,69 @@ h6 {
 #contact input[type="submit"]:hover {
     background-color: #202020;
 }
+
 /* contact Section */
 #contact .contact {
-	flex-direction: column !important;
-	max-width: 1200px;
+    flex-direction: column !important;
+    max-width: 1200px;
     margin: 0 auto;
     min-height: 100vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #contact .contact-items {
-	width: 400px;
+    width: 400px;
 }
+
 #contact .contact-item {
-	width: 80%;
-	padding: 20px;
-	text-align: center;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.6);
-	padding: 30px;
-	margin: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	box-shadow: 0px 0px 180px 0 #0000002c;
-	transition: .3s ease box-shadow;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 180px 0 #0000002c;
+    transition: .3s ease box-shadow;
 }
+
 #contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 0px 0px 5px 0 #0000002c;
 }
+
 #contact .icon {
-	width: 70px;
-	margin: 0 auto;
-	margin-bottom: 10px;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
+
 #contact .contact-info h1 {
-	font-size: 2.5rem;
-	font-weight: 500;
-	margin-bottom: 5px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
+
 #contact .contact-info h2 {
-	font-size: 1.3rem;
-	line-height: 2rem;
-	font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
 }
 
 #contact img {
-	height: 100%;
-	width: 100%;
-	object-fit: contain;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
+
 /*End contact Section */
+
 /* footer section */
 footer {
     background: #202020;
@@ -628,12 +633,32 @@ footer .copyright a {
     }
 
     #home {
-        background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/bg/3.jpg') repeat-y fixed;
-        
-        background-position: center top;
-        background-blend-mode: multiply;
-        background-size: 210%;
+        background: url(../images/bg/21.png);
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 290%;
+         background-position: 50% 20%;
     }
+#home .btn {
+    background: #eb5424;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    
+
+    
+}
+
+.get{
+     margin-bottom: 100vh;
+
+}
+   
 
     #home h2 {
         font-size: 22px;
@@ -649,45 +674,47 @@ footer .copyright a {
 
     #team {
         background: #364F6B;
-
         z-index: 10;
     }
 
     #intro {
-        background: linear-gradient(rgba(25, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;
-        background-size: 200%;
-        background-position: 50% 100%;
+        background: linear-gradient(rgba(107, 91, 128, 0.8), rgba(101, 82, 126, 0.8)), url('../images/logo/7.png') repeat-y fixed;
+        background-position: 40% 100%;
+        background-size: 190%;
     }
 
+    
+
     #services .bg-prog {
-     background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/code.png);
-     background-position:center;
-     background-size: 80%;
-    color: #ffffff;
-     border-top: 2px solid crimson;
-}
+        background: linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)), url(../images/icons/code.png);
+        background-position: center;
+        background-size: 80%;
+        color: #ffffff;
+        border-top: 2px solid crimson;
+    }
 
-#services .bg-logo {
-         background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/logo/256.png);
-          background-position:center;
-     background-size: 125%;
-    color: #ffffff;
-     border-top: 2px solid crimson;
-}
+    #services .bg-logo {
+        background: linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)), url(../images/logo/256.png);
+        background-position: center;
+        background-size: 125%;
+        color: #ffffff;
+        border-top: 2px solid crimson;
+    }
 
-   #services .bg-web {
-     background:linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)),url(../images/icons/web.png);
-     background-position:center;
-     background-size: 80%;
-    color: #ffffff;
-    border-top: 2px solid crimson;
-}
+    #services .bg-web {
+        background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/web.png);
+        background-position: center;
+        background-size: 80%;
+        color: #ffffff;
+        border-top: 2px solid crimson;
+    }
 
-#services .bg-media {
-         background:linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)),url(../images/icons/insta.png);
-          background-position:center;
-     background-size: 125%;
-    color: #ffffff;
-    border-top: 2px solid crimson;
-}
+    #services .bg-media {
+        background: linear-gradient(rgba(25, 10, 45, 1.8), rgba(25, 10, 45, 0.8)), url(../images/icons/insta.png);
+        background-position: center;
+        background-size: 125%;
+        color: #ffffff;
+        border-top: 2px solid crimson;
+    }
+
 }
