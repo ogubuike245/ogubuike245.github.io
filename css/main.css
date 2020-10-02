@@ -579,7 +579,7 @@ footer {
 footer h2 {
     padding-top: 40px;
     padding-bottom: 20px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 footer p {
