@@ -728,7 +728,7 @@ footer .copyright a {
         background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Content_re_33px.svg);
         background-position: center;
         background-size: 100%;
-        color: #ffffff;
+        color: black;
         border: 2px solid black;
     }
 
@@ -736,7 +736,7 @@ footer .copyright a {
        background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Social_media_re_w12q.svg);
         background-position: center;
         background-size: 100%;
-        color: #ffffff;
+         color: black;
         border: 2px solid black;
     }
 }
