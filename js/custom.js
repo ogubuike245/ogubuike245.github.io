@@ -46,6 +46,8 @@ $(function(){
         effect: 'fadeScale',
     });
 
+
+
   // ------- WOW ANIMATED ------ //
   wow = new WOW(
   {
