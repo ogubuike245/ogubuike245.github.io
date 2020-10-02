@@ -4,13 +4,11 @@ body {
     font-family: 'Proxima', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    position: relative;
+    
 }
 
-html,
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+html, body {
+   
     overflow-x: hidden;
     text-align: center;
     vertical-align: middle;
@@ -26,12 +24,7 @@ body {
     src: url(../fonts/ProximaNova-Bold.otf);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Proxima Bold";
     font-weight: bold;
 }
@@ -170,15 +163,12 @@ h6 {
     color: #eb5424;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #606060;
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #eb5424;
     background-color: transparent;
 }
@@ -193,8 +183,7 @@ h6 {
     border-color: transparent;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
 
@@ -202,8 +191,7 @@ h6 {
 #intro {
     padding-top: 180px;
     padding-bottom: 140px;
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;
-    /*background: crimson;*/
+    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../images/logo/7.png') repeat-y fixed;    /*background: crimson;*/
     background-position: center top;
     background-blend-mode: multiply;
     background-size: 80%;
@@ -225,7 +213,9 @@ h6 {
 
 /* work section */
 #services {
-    background-color: crimson;
+    background: #252525;
+    background-position: center;
+    background-size: 400%;
     z-index: 20000;
 }
 
@@ -241,45 +231,51 @@ hr {
 
 #services .title {
     padding: 100px 60px 60px 60px auto;
-    color: black;
+    color: white;
 }
 
 #services .bg-prog {
-    background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_code_review_l1q9.svg);
+    background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_code_review_l1q9.svg);
     background-position: center;
     background-size: 100%;
     color: #ffffff;
+    border: 2px solid #303030;
+    z-index: 200;
+    margin: 1px auto;
 }
 
 #services .bg-logo {
-    background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Logo_design_re_gfu6.svg);
+    background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Logo_design_re_gfu6.svg);
     background-position: center;
     background-size: 100%;
     color: #ffffff;
-    border: 2px solid black;
+    border: 2px solid #303030;
+    margin: 1px auto;
 }
 
 #services .bg-web {
-    background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Content_re_33px.svg);
+    background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Content_re_33px.svg);
     background-position: center;
     background-size: 100%;
-    color: #ffffff;
-    border: 2px solid black;
+    color: white;
+    font-size: 50px;
+    border: 2px solid #303030;
+    margin: 1px auto;
 }
 
 #services .bg-media {
-    background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Social_media_re_w12q.svg);
+    background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Social_media_re_w12q.svg);
     background-position: center;
     background-size: 100%;
-    color: #ffffff;
-    border: 2px solid black;
+    color: white;
+    font-size: 50px;
+    border: 2px solid #303030;
+    margin: 1px auto;
 }
 
 #services h3 {
     padding-bottom: 60px;
 }
-
-
 
 #services .fa {
     color: #ffffff;
@@ -305,12 +301,11 @@ hr {
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
 }
-
 
 .ogu {
     -webkit-filter: drop-shadow(20px 20px 20px black);
-    
 }
 
 #team h2 {
@@ -347,11 +342,13 @@ hr {
 #portfolio {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: linear-gradient(rgba(105, 10, 25, 1.8), rgba(205, 10, 45, 1.8)), url('../images/bg/Waiau.png')repeat-y fixed;
+    background: radial-gradient(rgba(25, 100, 45, 0.8), rgba(25, 10, 45, 0.8)), radial-gradient(rgba(79, 106, 138, 1.8), rgba(60, 104, 129, 1.8)) 100%;
     background-position: center;
-    background-size: 250%;
-   
-   }
+    background-size: 100%;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+}
 
 #portfolio h2 {
     line-height: 20px;
@@ -389,6 +386,9 @@ hr {
     padding-top: 100px;
     padding-bottom: 120px;
     color: white;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
 }
 
 #price .plan {
@@ -414,8 +414,7 @@ hr {
     padding: 0;
 }
 
-#price p,
-#price h2 {
+#price p, #price h2 {
     color: white;
     text-shadow: 2px 4px black;
 }
@@ -462,18 +461,17 @@ hr {
 
 /* contact section */
 #contact {
-    background: linear-gradient(rgba(25, 100, 45, 0.8), rgba(25, 10, 45, 0.8)), url('../23.png')repeat-y fixed;
+    background: radial-gradient(rgba(25, 100, 45, 0.8), rgba(25, 10, 45, 0.8)), radial-gradient(rgba(79, 106, 138, 1.8), rgba(60, 104, 129, 1.8)) 100%;
     background-position: center;
-    background-size: 400%;
+    background-size: 100%;
     color: #ffffff;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
 }
 
-#contact h2,
-#contact h1 {
+#contact h2, #contact h1 {
     color: #ffffff;
-    
 }
 
 #contact .form-control {
@@ -496,7 +494,15 @@ hr {
     transition: all 0.4s ease-in-out;
 }
 
-#contact input[type="submit"]:hover {
+#contact input[type="reset"] {
+    background-color: red;
+    color: #ffffff;
+    height: 60px;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover, #contact input[type="reset"]:hover {
     background-color: #202020;
 }
 
@@ -521,25 +527,18 @@ hr {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.6);
     padding: 30px;
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    box-shadow: 0px 0px 180px 0 #0000002c;
+    flex-direction: column !important;
+    box-shadow: 0px 0px 18px 0 #0000002c;
     transition: .3s ease box-shadow;
 }
 
 #contact .contact-item:hover {
     box-shadow: 0px 0px 5px 0 #0000002c;
-}
-
-#contact .icon {
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
 }
 
 #contact .contact-info h1 {
@@ -562,20 +561,24 @@ hr {
 
 /*End contact Section */
 
+/*End contact Section */
+
 /* footer section */
 footer {
-    background: #202020;
+    background: #303030;
     color: #ffffff;
     border-bottom: 10px solid #ffffff;
     padding-top: 60px;
     padding-bottom: 60px;
     position: scroll;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
+    -moz-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 1.1);
 }
 
 footer h2 {
     padding-top: 40px;
     padding-bottom: 20px;
-    
 }
 
 footer p {
@@ -634,12 +637,14 @@ footer .copyright a {
     .portfolio-thumb .portfolio-overlay {
         padding-top: 24px;
     }
+
 }
 
 @media (max-width:767px) {
     .navbar-brand {
         padding-top: 6px;
     }
+
 }
 
 @media (max-width:767px) {
@@ -695,34 +700,105 @@ footer .copyright a {
     }
 
     #services .bg-prog {
-        background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_code_review_l1q9.svg);
+        background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_code_review_l1q9.svg);
         background-position: center;
         background-size: 100%;
         color: #ffffff;
-        border: 2px solid black;
+        border: 2px solid #303030;
+        z-index: 200;
+        margin: 1px auto;
     }
 
     #services .bg-logo {
-        background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Logo_design_re_gfu6.svg);
+        background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Logo_design_re_gfu6.svg);
         background-position: center;
         background-size: 100%;
         color: #ffffff;
-        border: 2px solid black;
+        border: 2px solid #303030;
+        margin: 1px auto;
     }
 
     #services .bg-web {
-        background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Content_re_33px.svg);
+        background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Content_re_33px.svg);
         background-position: center;
         background-size: 100%;
-        color: black;
-        border: 2px solid black;
+        color: white;
+        font-size: 50px;
+        border: 2px solid #303030;
+        margin: 1px auto;
     }
 
     #services .bg-media {
-        background: linear-gradient(rgba(55, 10, 45, 0.4), rgba(25, 10, 45, 0.4)), url(../images/icons/undraw_Social_media_re_w12q.svg);
+        background: radial-gradient(rgba(11, 11, 11, 0.4), rgba(14, 14, 14, 1.4)), url(../images/icons/undraw_Social_media_re_w12q.svg);
         background-position: center;
         background-size: 100%;
-        color: black;
-        border: 2px solid black;
+        color: white;
+        font-size: 50px;
+        border: 2px solid #303030;
+        margin: 1px auto;
     }
+
 }
+
+/*=======*/
+
+/* Wrappers */
+
+.wrapper {
+    background-image: url("../images/bg/bg.png");
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 8em 0 8em 0;
+    text-align: center;
+}
+
+.wrapper.style4 {
+    background-color: #303030;
+    color: #999;
+    text-shadow: -1px -1px 0px #181818;
+}
+
+@media only screen and (min-width:768px) {
+
+    /* contact  */
+    #contact .contact {
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-width: 20vh;
+    }
+
+    #contact .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    #contact .contact-item {
+        width: 30%;
+        margin: 20px;
+        flex-direction: row;
+    }
+
+    #contact .contact-item .icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    #contact .contact-item .icon img {
+        object-fit: contain;
+    }
+
+    #contact .contact-item .contact-info {
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    /* End contact  */
+}
+
+/* End Media Query For Tablet */
