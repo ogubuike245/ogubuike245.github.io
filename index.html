@@ -213,13 +213,14 @@
                     <p>YOUR REVIEW MAKES US BETTER</p>
                 </div>
                 <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp" >
-                    <form method="POST" data-netlify="true"   data-netlify-recaptcha="true" >
+                    <form method="POST" data-netlify="true"   >
                         <input type="text" class="form-control" placeholder="Name" name="name">
                         <input type="email" class="form-control" placeholder="Email" name="email">
                         <textarea class="form-control" placeholder="Message" rows="6" name="message"></textarea>
 <label >UPLOAD FILE</label>
                             <input type="file" class="form-control" VALUE="UPLOAD FILES" name="myfile" id="myfile">
-                        
+                         
+                        <input type="submit" data-netlify-recaptcha="true" class="form-control" value="CAPTCHA">
                         
                         <input type="submit" class="form-control" value="SEND EMAIL">
                     </form>
