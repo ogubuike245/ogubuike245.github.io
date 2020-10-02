@@ -95,7 +95,7 @@ h6 {
 
 /* home section */
 #home {
-    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url(../images/bg/22.png) repeat-y fixed;
+    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url(../images/bg/22.png)  fixed;
 
     background-position: center;
     background-blend-mode: multiply;
@@ -278,23 +278,7 @@ hr {
         border: 2px solid black;
     }
 
-/*#services .bg-media {
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/insta.png);
-    background-position: center;
-    background-size: 80%;
-    color: #ffffff;
-    border: 2px solid crimson;
-    text-shadow: 2px 4px black;
-}
 
-#services .bg-logo {
-    background: linear-gradient(rgba(55, 10, 45, 0.8), rgba(25, 10, 45, 0.8)), url(../images/icons/undraw_Logo_design_re_gfu6.svg);
-    background-position: center;
-    background-size: 80%;
-    color: #ffffff;
-    border: 2px solid crimson;
-    text-shadow: 2px 4px black;
-}*/
 
 #services h3 {
     padding-bottom: 60px;
