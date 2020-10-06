@@ -1,5 +1,5 @@
 body {
-    background: #430d27;
+    background: white;
     color: #606060;
     font-family: 'Proxima', sans-serif;
     font-size: 16px;
@@ -86,7 +86,8 @@ h6 {
 
 /* home section */
 #home {
-    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), url(../images/bg/22.png) fixed;
+    background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)), 
+    url(../images/logo/6.png) fixed;
     background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
@@ -567,7 +568,7 @@ hr {
 footer {
     background: #303030;
     color: #ffffff;
-    border-bottom: 10px solid #ffffff;
+    border-bottom: 10px solid #303030;
     padding-top: 60px;
     padding-bottom: 60px;
     position: scroll;
@@ -653,14 +654,15 @@ footer .copyright a {
     }
 
     #home {
-        background: url(../images/bg/21.png);
+        background: linear-gradient(rgba(100, 10, 45, 0.9), rgba(25, 10, 45, 0.2)), 
+    url(../images/logo/6.png) fixed;
         position: relative;
         left: 0px;
         top: 0px;
         width: 100vw;
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: 290%;
+        background-size: 100%;
         background-position: 50% 20%;
     }
 
@@ -673,7 +675,7 @@ footer .copyright a {
     }
 
     .get {
-        margin-bottom: 100vh;
+       margin-left: -120px;
     }
 
     #home h2 {
@@ -694,9 +696,11 @@ footer .copyright a {
     }
 
     #intro {
-        background: linear-gradient(rgba(107, 91, 128, 0.8), rgba(101, 82, 126, 0.8)), url('../images/logo/7.png') repeat-y fixed;
-        background-position: 40% 100%;
-        background-size: 190%;
+        background: linear-gradient(rgba(107, 91, 128, 0.8),
+         rgba(101, 82, 126, 0.8)), url('../images/logo/logo1.png') repeat-y fixed;
+        background-position: 20% 100%;
+        background-size: 271%;
+        height: 40vh;
     }
 
     #services .bg-prog {
