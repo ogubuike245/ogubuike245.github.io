@@ -33,7 +33,7 @@ initParallax();
   var $window = $(window),
     $body = $('body'),
     $menu = $('#menu'),
-    $toggle = $('.toggle'),
+    
     
     $sidebar = $('#sidebar'),
     $main = $('#main');
@@ -84,13 +84,4 @@ initParallax();
 
 
 
-// $(document).ready(function() {
-//   $('.toggle').click(function(){
-//     $('.toggle').toggleClass('active')
-    
-
-//       });
-
-  
-// });
 
