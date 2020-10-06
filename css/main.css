@@ -700,7 +700,7 @@ footer .copyright a {
          rgba(101, 82, 126, 0.8)) ,/*url('../images/logo/logo1.png') repeat-y */;
         background-position: 20% 100%;
         background-size: 271%;
-        height: 40vh;
+        height: 80vh;
     }
 
     #services .bg-prog {
