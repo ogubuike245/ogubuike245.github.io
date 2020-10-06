@@ -655,7 +655,7 @@ footer .copyright a {
 
     #home {
         background: linear-gradient(rgba(100, 10, 45, 0.9), rgba(25, 10, 45, 0.2)), 
-    url(../images/logo/6.png) fixed;
+    url(../images/logo/6.png ) scroll  ;
         position: relative;
         left: 0px;
         top: 0px;
