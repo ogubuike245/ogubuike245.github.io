@@ -12,7 +12,7 @@ effect: 'fadeScale',
 // ------- WOW ANIMATED ------ //
 wow = new WOW(
 {
-mobile: false
+mobile: true
 });
 wow.init();
 // ------- GOOGLE MAP ----- //
@@ -68,17 +68,7 @@ initParallax();
 
  
 
-  // Intro.
-    var $intro = $('#intro');
-
-    // Move to main on <=large, back to sidebar on >large.
-      breakpoints.on('<=large', function() {
-        $intro.prependTo($main);
-      });
-
-      breakpoints.on('>large', function() {
-        $intro.prependTo($sidebar);
-      });
+ 
 
 })(jQuery);
 
