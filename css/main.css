@@ -668,9 +668,7 @@ footer .copyright a {
         top: 0px;
         width: 100vw;
         height: 100vh;
-        background-repeat: no-repeat;
-        background-size: 260%;
-        background-position: 35% 100%;
+       
     }
 
     #home .btn {
