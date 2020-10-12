@@ -93,7 +93,7 @@ h6 {
 /* home section */
 #home {
     background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)),
-        url(../images/logo/6.png) fixed;
+        url(../images/logo/harry.png) fixed;
     background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
@@ -655,12 +655,6 @@ footer .copyright a {
 
 }
 
-@media (max-width:767px) {
-    .navbar-brand {
-        padding-top: 6px;
-    }
-
-}
 
 @media (max-width:767px) {
     #home h1 {
@@ -668,16 +662,19 @@ footer .copyright a {
     }
 
     #home {
-        background: linear-gradient(rgba(100, 10, 45, 0.9), rgba(25, 10, 45, 0.2)),
-            url(../images/logo/6.png ) scroll;
+        background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)),
+        url(../images/logo/harry.png) fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: 100%;
         position: relative;
         left: 0px;
         top: 0px;
         width: 100vw;
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 50% 20%;
+        background-size: 260%;
+        background-position: 35% 100%;
     }
 
     #home .btn {
@@ -707,6 +704,9 @@ footer .copyright a {
     #team {
         background: #364F6B;
         z-index: 10;
+    }
+    .navbar-brand {
+        padding-top: 6px;
     }
 
     #intro {
