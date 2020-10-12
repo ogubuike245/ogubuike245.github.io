@@ -754,6 +754,13 @@ footer .copyright a {
         margin: 1px auto;
     }
 
+
+      .whatsapp{
+  transform: scale(1.2);
+
+
+    }
+
 }
 
 /*=======*/
@@ -814,6 +821,13 @@ footer .copyright a {
         padding-top: 20px;
     }
 
+
+    .whatsapp{
+  transform: scale(2.5);
+
+
+    }
+
     /* End contact  */
 }
 
@@ -851,6 +865,9 @@ footer .copyright a {
         width: 100%;
         overflow-x: hidden;
     }
+
+
+  
 
 }
 
