@@ -663,6 +663,8 @@ footer .copyright a {
 
     #home {
        
+       background-size: 200%;
+       background-position: 30% 30%;
         position: relative;
         left: 0px;
         top: 0px;
