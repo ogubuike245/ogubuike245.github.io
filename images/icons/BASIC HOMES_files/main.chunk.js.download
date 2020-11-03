@@ -1,0 +1,442 @@
+(this["webpackJsonpbasichomes"] = this["webpackJsonpbasichomes"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./images/defaultBcg.jpeg */ "./src/images/defaultBcg.jpeg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./images/room-2.jpeg */ "./src/images/room-2.jpeg");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+// Module
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n  }\r\n  :root {\r\n    --primaryColor: #af9a7d;\r\n    --mainWhite: #fff;\r\n    --offWhite: #f7f7f7;\r\n    --mainBlack: #222;\r\n    --mainGrey: #ececec;\r\n    --darkGrey: #cfcfcf;\r\n    --mainTransition: all 0.3s linear;\r\n    --mainSpacing: 3px;\r\n    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);\r\n    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);\r\n  }\r\n  /* globals */\r\n  body {\r\n    padding-top: 66px;\r\n    color: var(--mainBlack);\r\n    background: var(--mainWhite);\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n    line-height: 1.4;\r\n  }\r\n  h1 {\r\n    font-size: 3em;\r\n    line-height: 1;\r\n    margin-bottom: 0.5em;\r\n  }\r\n  h2 {\r\n    font-size: 2em;\r\n    margin-bottom: 0.75em;\r\n  }\r\n  h3 {\r\n    font-size: 1.5em;\r\n    line-height: 1;\r\n    margin-bottom: 1em;\r\n  }\r\n  h4 {\r\n    font-size: 1.2em;\r\n    line-height: 1.25;\r\n    margin-bottom: 1.25em;\r\n  }\r\n  h5 {\r\n    font-size: 1em;\r\n    font-weight: bold;\r\n    margin-bottom: 1.5em;\r\n  }\r\n  h6 {\r\n    font-size: 1em;\r\n    font-weight: bold;\r\n    margin-bottom: 1.5em;\r\n  }\r\n  \r\n  .btn-primary {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    letter-spacing: var(--mainSpacing);\r\n    color: var(--mainBlack);\r\n    background: var(--primaryColor);\r\n    padding: 0.4rem 0.9rem;\r\n    border: 3px solid var(--primaryColor);\r\n    transition: var(--mainTransition);\r\n    text-transform: uppercase;\r\n    cursor: pointer;\r\n  }\r\n  .btn-primary:hover {\r\n    background: transparent;\r\n    color: var(--primaryColor);\r\n  }\r\n  .loading {\r\n    text-transform: capitalize;\r\n    text-align: center;\r\n    margin-top: 3rem;\r\n  }\r\n  .error {\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    margin: 2rem 0;\r\n  }\r\n  .empty-search {\r\n    text-align: center;\r\n    text-transform: capitalize;\r\n    margin: 2rem 0;\r\n    padding: 1rem;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  /* end of globals */\r\n  /* Navbar */\r\n  .navbar {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    padding: 0.75rem 2rem;\r\n    background: var(--offWhite);\r\n    z-index: 1;\r\n  }\r\n  .nav-header {\r\n    display: flex;\r\n    justify-content: space-between;\r\n  }\r\n  .nav-btn {\r\n    background: transparent;\r\n    border: none;\r\n    cursor: pointer;\r\n    outline: none;\r\n  }\r\n  .nav-icon {\r\n    font-size: 1.5rem;\r\n    color: var(--primaryColor);\r\n  }\r\n  .nav-links {\r\n    height: 0;\r\n    overflow: hidden;\r\n    transition: var(--mainTransition);\r\n    list-style-type: none;\r\n  }\r\n  .nav-links a {\r\n    display: block;\r\n    text-decoration: none;\r\n    padding: 1rem 0;\r\n    color: var(--mainBlack);\r\n    transition: var(--mainTransition);\r\n    text-align: center;\r\n    font-size: 1rem;\r\n    font-weight: 600;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .nav-links a:hover {\r\n    color: var(--primaryColor);\r\n  }\r\n  \r\n  .show-nav {\r\n    height: 100px;\r\n  }\r\n  @media screen and (min-width: 768px) {\r\n    .nav-btn {\r\n      display: none;\r\n    }\r\n    .nav-center {\r\n      max-width: 1170px;\r\n      margin: 0 auto;\r\n      display: flex;\r\n    }\r\n    .nav-links {\r\n      height: auto;\r\n      display: flex;\r\n      margin-left: 4rem;\r\n    }\r\n    .nav-links a {\r\n      margin: 0 1rem;\r\n      padding: 0.5rem 0;\r\n    }\r\n  }\r\n  /* end of navbar */\r\n  /* Hero */\r\n  .defaultHero,\r\n  .roomsHero {\r\n    min-height: calc(100vh - 66px);\r\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") center/cover no-repeat;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n  }\r\n  .roomsHero {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    min-height: 60vh;\r\n  }\r\n  /* End of Hero */\r\n  /* Banner */\r\n  .banner {\r\n    display: inline-block;\r\n    background: rgba(0, 0, 0, 0.5);\r\n    color: var(--mainWhite);\r\n    padding: 2rem 1rem;\r\n    text-align: center;\r\n    text-transform: capitalize;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .banner h1 {\r\n    font-size: 2.5rem;\r\n  }\r\n  .banner div {\r\n    width: 10rem;\r\n    height: 5px;\r\n    background: var(--primaryColor);\r\n    margin: 1.7rem auto;\r\n  }\r\n  .banner p {\r\n    font-size: 1.2rem;\r\n    margin-bottom: 2rem;\r\n  }\r\n  @media screen and (min-width: 576px) {\r\n    .banner {\r\n      padding: 2rem 3rem;\r\n    }\r\n    .banner h1 {\r\n      font-size: 3rem;\r\n    }\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .banner {\r\n      padding: 2rem 6rem;\r\n    }\r\n    .banner h1 {\r\n      font-size: 4rem;\r\n    }\r\n  }\r\n  /* End of Banner */\r\n  /* Title */\r\n  .section-title {\r\n    text-align: center;\r\n    margin-bottom: 4rem;\r\n  }\r\n  .section-title h4 {\r\n    font-size: 2rem;\r\n    letter-spacing: var(--mainSpacing);\r\n    text-transform: capitalize;\r\n    margin-bottom: 1rem;\r\n  }\r\n  .section-title div {\r\n    width: 5rem;\r\n    height: 5px;\r\n    margin: 0 auto;\r\n    background: var(--primaryColor);\r\n  }\r\n  /* end of Title */\r\n  \r\n  /* services */\r\n  .services {\r\n    padding: 5rem 0;\r\n  }\r\n  .services {\r\n    background: var(--darkGrey);\r\n    text-align: center;\r\n  }\r\n  .services-center {\r\n    width: 90vw;\r\n    margin: 0 auto;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));\r\n    grid-row-gap: 2rem;\r\n    grid-column-gap: 50px;\r\n  }\r\n  .service span {\r\n    display: inline-block;\r\n    color: var(--primaryColor);\r\n    font-size: 2.5rem;\r\n    margin-bottom: 1.5rem;\r\n  }\r\n  .services h6 {\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .services p {\r\n    width: 80%;\r\n    margin: 0 auto;\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .services-center {\r\n      width: 95vw;\r\n      max-width: 1170px;\r\n    }\r\n  }\r\n  \r\n  @media screen and (min-width: 1200px) {\r\n    .services p {\r\n      width: 100%;\r\n    }\r\n  }\r\n  /*end of services */\r\n  /* featured rooms */\r\n  \r\n  .featured-rooms {\r\n    padding: 5rem 0;\r\n  }\r\n  .featured-rooms-center {\r\n    width: 80vw;\r\n    margin: 0 auto;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));\r\n    grid-row-gap: 2rem;\r\n    grid-column-gap: 40px;\r\n  }\r\n  @media screen and (min-width: 776px) {\r\n    .featured-rooms-center {\r\n      width: 90vw;\r\n      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));\r\n    }\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .featured-rooms-center {\r\n      width: 95vw;\r\n      max-width: 1170px;\r\n    }\r\n  }\r\n  /* end pf featured rooms */\r\n  /* room */\r\n  .room {\r\n    box-shadow: var(--lightShadow);\r\n    transition: var(--mainTransition);\r\n  }\r\n  .room:hover {\r\n    box-shadow: var(--darkShadow);\r\n  }\r\n  \r\n  .img-container {\r\n    position: relative;\r\n  }\r\n  .img-container img {\r\n    width: 100%;\r\n    display: block;\r\n    transition: var(--mainTransition);\r\n  }\r\n  .price-top {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    background: rgba(0, 0, 0, 0.8);\r\n    color: var(--mainWhite);\r\n    padding: 0.3rem 0.6rem 0.5rem;\r\n    border-bottom-right-radius: 1rem;\r\n    font-size: 0.5rem;\r\n    text-align: center;\r\n    transition: var(--mainTransition);\r\n  }\r\n  .price-top h6 {\r\n    margin-bottom: 0;\r\n    font-size: 0.9rem;\r\n    font-weight: 300;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .room-link {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: scale(0);\r\n    transition: all 0.3s linear;\r\n  }\r\n  .img-container:hover {\r\n    background: rgba(0, 0, 0, 0.8);\r\n  }\r\n  .img-container:hover img {\r\n    opacity: 0.3;\r\n  }\r\n  .img-container:hover .price-top {\r\n    opacity: 0;\r\n  }\r\n  .img-container:hover .room-link {\r\n    transform: translate(-50%, -50%) scale(1);\r\n  }\r\n  .room-info {\r\n    background: var(--darkGrey);\r\n    text-transform: capitalize;\r\n    padding: 0.5rem 0;\r\n    text-align: center;\r\n    font-weight: 700;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  /* end of room  */\r\n  /* single room*/\r\n  \r\n  .single-room {\r\n    padding: 5rem 0 0 0;\r\n  }\r\n  .single-room-images {\r\n    width: 80vw;\r\n    margin: 0 auto;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\r\n    grid-row-gap: 2rem;\r\n    grid-column-gap: 50px;\r\n  }\r\n  .single-room-images img {\r\n    width: 100%;\r\n    display: block;\r\n  }\r\n  .single-room-info {\r\n    width: 80vw;\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    margin: 2rem auto;\r\n  }\r\n  .desc,\r\n  .info {\r\n    margin: 1rem 0;\r\n  }\r\n  .desc h3 {\r\n    text-transform: capitalize;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .desc p {\r\n    line-height: 1.5;\r\n  }\r\n  .info h3,\r\n  .info h6 {\r\n    text-transform: capitalize;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  \r\n  .info h6 {\r\n    font-weight: 300;\r\n  }\r\n  .room-extras {\r\n    width: 80vw;\r\n    margin: 0 auto 3rem auto;\r\n  }\r\n  .room-extras h6 {\r\n    text-transform: capitalize;\r\n    letter-spacing: var(--mainSpacing);\r\n  }\r\n  .extras {\r\n    list-style-type: none;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));\r\n    grid-column-gap: 2rem;\r\n    grid-row-gap: 1rem;\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .single-room-images,\r\n    .single-room-info,\r\n    .room-extras {\r\n      width: 95vw;\r\n      max-width: 1170px;\r\n    }\r\n    .single-room-info {\r\n      display: grid;\r\n      grid-template-columns: 1fr 1fr;\r\n      grid-column-gap: 2rem;\r\n    }\r\n    .info {\r\n      padding-left: 3rem;\r\n    }\r\n  }\r\n  /* end of single room*/\r\n  /* roomlist */\r\n  .roomslist {\r\n    padding: 5rem 0;\r\n  }\r\n  .roomslist-center {\r\n    width: 80vw;\r\n    margin: 0 auto;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));\r\n    grid-row-gap: 2rem;\r\n    grid-column-gap: 30px;\r\n  }\r\n  \r\n  @media screen and (min-width: 776px) {\r\n    .roomslist-center {\r\n      width: 90vw;\r\n    }\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .roomslist-center {\r\n      width: 95vw;\r\n      max-width: 1170px;\r\n    }\r\n  }\r\n  /* end of roomlist */\r\n  /*  rooms fitler*/\r\n  .filter-container {\r\n    padding: 5rem 0;\r\n  }\r\n  .filter-form {\r\n    width: 60vw;\r\n    margin: 0 auto;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));\r\n    grid-row-gap: 2rem;\r\n    grid-column-gap: 40px;\r\n  }\r\n  .form-group {\r\n    text-transform: capitalize;\r\n  }\r\n  .form-group label {\r\n    display: block;\r\n    letter-spacing: var(--mainSpacing);\r\n    margin-bottom: 0.5rem;\r\n  }\r\n  .form-control {\r\n    width: 100%;\r\n    background: transparent;\r\n    font-size: 1rem;\r\n  }\r\n  .size-inputs {\r\n    display: flex;\r\n  }\r\n  .size-input {\r\n    width: 40%;\r\n    padding: 0.2rem;\r\n    border: 1px solid var(--mainBlack);\r\n    border-radius: 0.3rem;\r\n    margin-right: 0.3rem;\r\n  }\r\n  .single-extra label {\r\n    display: inline-block;\r\n    font-size: 0.8rem;\r\n    margin-left: 0.5rem;\r\n  }\r\n  @media screen and (min-width: 776px) {\r\n    .filter-form {\r\n      width: 70vw;\r\n    }\r\n  }\r\n  @media screen and (min-width: 992px) {\r\n    .filter-form {\r\n      width: 95vw;\r\n      max-width: 1170px;\r\n    }\r\n  }\r\n  /* end of rooms fitler*/\r\n  ", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Home */ "./src/pages/Home.js");
+/* harmony import */ var _pages_Rooms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Rooms */ "./src/pages/Rooms.js");
+/* harmony import */ var _pages_SingleRoom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/SingleRoom */ "./src/pages/SingleRoom.js");
+/* harmony import */ var _pages_Error__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/Error */ "./src/pages/Error.js");
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\App.js";
+
+
+
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/",
+    component: _pages_Home__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/rooms",
+    component: _pages_Rooms__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/single-room",
+    component: _pages_SingleRoom__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/images/defaultBcg.jpeg":
+/*!************************************!*\
+  !*** ./src/images/defaultBcg.jpeg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/defaultBcg.aebaec51.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/room-2.jpeg":
+/*!********************************!*\
+  !*** ./src/images/room-2.jpeg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/room-2.052c7681.jpeg";
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\index.js";
+
+ // import './index.css';
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 5
+  }
+})), document.getElementById("root")); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/pages/Error.js":
+/*!****************************!*\
+  !*** ./src/pages/Error.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Error; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\pages\\Error.js";
+
+function Error() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 10
+    }
+  }, "HELLO FROM ERROR PAGE");
+}
+
+/***/ }),
+
+/***/ "./src/pages/Home.js":
+/*!***************************!*\
+  !*** ./src/pages/Home.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\pages\\Home.js";
+
+function Home() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 10
+    }
+  }, "HELLO FROM HOME PAGE");
+}
+
+/***/ }),
+
+/***/ "./src/pages/Rooms.js":
+/*!****************************!*\
+  !*** ./src/pages/Rooms.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Rooms; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\pages\\Rooms.js";
+
+function Rooms() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 10
+    }
+  }, "HELLO FROM ROOMS PAGE");
+}
+
+/***/ }),
+
+/***/ "./src/pages/SingleRoom.js":
+/*!*********************************!*\
+  !*** ./src/pages/SingleRoom.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SingleRoom; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\OGUBUIKE\\Downloads\\BHOMES\\basichomes\\src\\pages\\SingleRoom.js";
+
+class SingleRoom extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 5,
+        columnNumber: 12
+      }
+    }, "HELLO FROM SINGLE ROOM PAGE");
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.0/8 are considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl, {
+    headers: {
+      'Service-Worker': 'script'
+    }
+  }).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    }).catch(error => {
+      console.error(error.message);
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\OGUBUIKE\Downloads\BHOMES\basichomes\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\OGUBUIKE\Downloads\BHOMES\basichomes\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\OGUBUIKE\Downloads\BHOMES\basichomes\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

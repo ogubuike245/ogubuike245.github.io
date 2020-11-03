@@ -93,7 +93,7 @@ h6 {
 /* home section */
 #home {
     background: linear-gradient(rgba(0, 10, 45, 0.2), rgba(25, 10, 45, 0.2)),
-        url(../images/logo/harry.png) fixed;
+        url(../images/logo/another.png) fixed;
     background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
